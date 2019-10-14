@@ -1,0 +1,89 @@
+/*****************GENERAL****************/
+a
+{
+    text-decoration: none;
+    color: #000000;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6
+{
+    margin-block-end: 0;
+}
+/*****************HEADER****************/
+header
+{
+overflow: auto;
+}
+    /*****************LOGO****************/
+    .logo
+    {
+        float: left;
+        font-size: 22px;
+        line-height: 20px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .pt
+    {
+        font-size: 14px;
+    }
+    /*****************NAV****************/
+    nav
+    {
+        float: right;
+        margin: 0;
+    }
+        nav li
+        {
+            display: inline;
+            padding-left: 30px;
+            
+        }
+            nav li a
+            {
+                color: #777777;
+                font-size: 14px;
+                padding-top: 32px;
+                padding-bottom: 31px;
+                line-height: 50px;
+            }
+            .active
+            {
+                border-bottom: 2px solid #f2913d;
+            }
+/*****************MAIN****************/
+main
+{
+    overflow: auto;
+}
+.main-img
+{
+    background: url(css/sunrise-runner.jpg) no-repeat;
+    background-size: cover;
+    max-height: 400px;
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 50px;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 30px;
+}
+    .main-img h1
+    {
+        font-size: 70px;
+    }
+.rorelse
+{
+    width: 33.33%;
+    float: left;
+}
+.kost, .somn
+{
+    width: 33.33%;
+    float: left;
+}
