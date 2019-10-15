@@ -7,9 +7,10 @@ a
 body
 {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin:0;
     padding: 0;
 }
+
 h1, h2, h3, h4, h5, h6
 {
     margin-block-end: 0;
@@ -27,6 +28,7 @@ overflow: auto;
         line-height: 20px;
         text-align: center;
         padding-top: 20px;
+        margin-left: 2%;
     }
     .pt
     {
@@ -42,6 +44,7 @@ overflow: auto;
         {
             display: inline;
             padding-left: 30px;
+            margin-right: -2%;
             
         }
             nav li a
@@ -51,10 +54,6 @@ overflow: auto;
                 padding-top: 32px;
                 padding-bottom: 31px;
                 line-height: 50px;
-            }
-            nav li a:hover
-            {
-                border-bottom: 2px solid #f2913d;
             }
             .active
             {
@@ -81,18 +80,91 @@ main
     {
         font-size: 70px;
     }
-.rorelse
+
+.rorelse, .kost, .somn
 {
+    margin: 2%;
+    width: 29.33%;
+    float: left;
+    text-align: center;
+    
+}
+#rorelse-img
+{
+   
+    width:100px;
+    height: 100px;
+}
+#headline-rorelse,#headline-kost,#headline-somn
+{
+    color: #f2913d;
+}
+/* .kost, .somn
+{
+    
     width: 33.33%;
     float: left;
-}
-.kost, .somn
+    text-align: center;
+} */
+#kost-img
 {
-    width: 33.33%;
-    float: left;
+    
+    width:100px;
+    height: 100px;
 }
+#somn-img
+{
+    
+    width:100px;
+    height: 100px;
+}
+.end-text
+{
+    margin:0% 0% 5% 0%;
+    text-align: center;
+}
+
+.line{
+    width: 50%;
+    margin: 0% 0% 0% 25%;
+    border-bottom: 1px solid grey;
+    }
+
+
+/*****************FOOTER****************/
 footer
 {
     overflow: auto;
     background-color: bisque;
+
+}
+
+.footer-text 
+{
+    margin-left: 2%;
+    float: left;
+    background-color: #bf5841;
+
+}
+
+.google-map
+{
+    margin: 2% 0% 0% 10%;
+    float: center;
+    /*background-color: #bf5841;
+    width:420px;
+    height: 260px;*/
+          
+}
+.google-map.iframe
+{
+    width: fill;
+    margin: 0% 0% 0% 55%;
+    
+}
+.footer-sociala {
+    
+    margin: 0% 0% 0% 80%;
+
+
 }
