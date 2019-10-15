@@ -52,6 +52,10 @@ overflow: auto;
                 padding-bottom: 31px;
                 line-height: 50px;
             }
+            nav li a:hover
+            {
+                border-bottom: 2px solid #f2913d;
+            }
             .active
             {
                 border-bottom: 2px solid #f2913d;
@@ -86,4 +90,9 @@ main
 {
     width: 33.33%;
     float: left;
+}
+footer
+{
+    overflow: auto;
+    background-color: bisque;
 }
