@@ -193,9 +193,9 @@ main
 /*****************INDEX-END****************/ 
 
 /*****************PERSONLIG-TRÄNING-START****************/
-* {
-    box-sizing: border-box;
-  }
+/* * {
+    box-sizing: border-box; Något stämmer inte med detta 
+  } */
   
 .end-personlig-traning-image {
 float: left;
