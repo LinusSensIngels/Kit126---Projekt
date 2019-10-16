@@ -87,7 +87,7 @@ overflow: auto;
             {
                 border-bottom: 2px solid #f2913d;
             }
-/*****************MAIN****************/
+/*****************MAIN-INDEX****************/
 main
 {
     overflow: auto;
@@ -108,7 +108,38 @@ main
     {
         font-size: 70px;
     }
+/*****************MAIN-Personlig-träning****************/    
+.main-img-personlig-traning
+{
+    background: url(css/Jim-Christy-fall-walk2.jpg) no-repeat;
+    background-size: cover;
+    max-height: 400px;
+    text-align: center;
+    padding-top: 400px;
+    padding-bottom: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+}
+    .main-img-personlig-traning h1
+    {
+        font-size: 50px;
+        
+    }
+.main-personlig-traning-content h3
+{
+    text-align: center;
+    color: #bf5841;
+}
+.main-personlig-traning-content p
+{
+    text-align: center;
+    margin: 2%;
+}
 
+
+
+/*****************INDEX-START****************/   
 .rorelse, .kost, .somn
 {
     margin: 2%;
@@ -159,8 +190,40 @@ main
     margin: 0% 0% 0% 25%;
     border-bottom: 1px solid #bf5841;
 }
+/*****************INDEX-END****************/ 
 
-
+/*****************PERSONLIG-TRÄNING-START****************/
+* {
+    box-sizing: border-box;
+  }
+  
+.end-personlig-traning-image {
+float: left;
+width: 50%;
+padding: 20px 0px 0px 0px;
+}
+.end-personlig-traning-image h3 {
+    position: relative;
+    bottom: 250px;
+    text-align: left;
+    color: white;
+    font-size: 40px;
+    margin:2%;
+}
+.end-personlig-traning-image p {
+    position: relative;
+    bottom: 250px;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    margin:2%;
+}
+.end-personlig-traning-segues::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*****************PERSONLIG-TRÄNING-END****************/ 
 /*****************FOOTER****************/
 footer
 {
