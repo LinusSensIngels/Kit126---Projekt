@@ -220,7 +220,7 @@ main
     font-size: 20px;
     line-height: 30px;
 }
-    .main-img-kost-och-halsa h1
+    .main-img-kontakt h1
     {
         font-size: 50px;
         
@@ -321,6 +321,8 @@ padding: 20px 0px 0px 0px;
     display: table;
 }
 /*****************PERSONLIG-TRÄNING-END****************/
+
+
 /*****************KOST-OCH-HÄLSA-START****************/
 /* * {
     box-sizing: border-box; Något stämmer inte med detta 
@@ -353,6 +355,42 @@ padding: 20px 0px 0px 0px;
         display: table;
     }
     /*****************KOST-OCH-HÄLSA-END****************/ 
+
+
+
+/*****************KONTAKT-START****************/
+/* * {
+    box-sizing: border-box; Något stämmer inte med detta 
+  } */
+  
+  .end-kontakt-image {
+    float: left;
+    width: 50%;
+    padding: 20px 0px 0px 0px;
+    }
+    .end-kontakt-image h3 {
+        position: relative;
+        bottom: 250px;
+        text-align: left;
+        color: white;
+        font-size: 40px;
+        margin:2%;
+    }
+    .end-kontakt-image p {
+        position: relative;
+        bottom: 250px;
+        text-align: left;
+        color: white;
+        font-size: 20px;
+        margin:2%;
+    }
+    .end-kontakt-segues::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    /*****************KONTAKT-END****************/ 
+
 /*****************FOOTER****************/
 footer
 {
