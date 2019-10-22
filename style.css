@@ -75,6 +75,11 @@ overflow: auto;
             margin-right: -2%;
 
         }
+        nav li::active
+        {
+            border-bottom: 2px solid #f2913d;
+
+        }
             nav li a
             {
                 color: #777777;
