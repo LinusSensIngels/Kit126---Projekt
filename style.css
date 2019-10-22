@@ -42,6 +42,47 @@ h4
     font-style:italic;
 
 }
+.button {
+    background-color: transparent;
+    border: solid;
+    border-color:#f2913d !important;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    top:-220px;
+    margin-left:2%;
+}
+.button:hover
+{
+    background-color:#f2913d !important;
+}
+.button1 {
+    background-color: transparent;
+    border: solid;
+    border-color:#f2913d !important;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    top:-155px;
+    margin-left:2%;
+}
+.button1:hover
+{
+    background-color:#f2913d !important;
+}
+
 /*****************HEADER****************/
 header
 {
@@ -73,11 +114,6 @@ overflow: auto;
             display: inline;
             padding-left: 30px;
             margin-right: -2%;
-
-        }
-        nav li::active
-        {
-            border-bottom: 2px solid #f2913d;
 
         }
             nav li a
@@ -142,7 +178,34 @@ main
     margin: 2%;
 }
 
-
+/*****************MAIN-KOST-OCH-HÄLSA****************/    
+.main-img-kost-och-halsa
+{
+    background: url(css/Kost_och_halsa.jpg) no-repeat;
+    background-size: cover;
+    max-height: 400px;
+    text-align: center;
+    padding-top: 400px;
+    padding-bottom: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+}
+    .main-img-kost-och-halsa h1
+    {
+        font-size: 50px;
+        
+    }
+.main-kost-och-halsa-content h3
+{
+    text-align: center;
+    color: #bf5841;
+}
+.main-kost-och-halsa-content p
+{
+    text-align: center;
+    margin: 2%;
+}
 
 /*****************INDEX-START****************/   
 .rorelse, .kost, .somn
@@ -228,7 +291,39 @@ padding: 20px 0px 0px 0px;
     clear: both;
     display: table;
 }
-/*****************PERSONLIG-TRÄNING-END****************/ 
+/*****************PERSONLIG-TRÄNING-END****************/
+/*****************KOST-OCH-HÄLSA-START****************/
+/* * {
+    box-sizing: border-box; Något stämmer inte med detta 
+  } */
+  
+  .end-kost-och-halsa-image {
+    float: left;
+    width: 50%;
+    padding: 20px 0px 0px 0px;
+    }
+    .end-kost-och-halsa-image h3 {
+        position: relative;
+        bottom: 250px;
+        text-align: left;
+        color: white;
+        font-size: 40px;
+        margin:2%;
+    }
+    .end-kost-och-halsa-image p {
+        position: relative;
+        bottom: 250px;
+        text-align: left;
+        color: white;
+        font-size: 20px;
+        margin:2%;
+    }
+    .end-kost-och-halsa-segues::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    /*****************KOST-OCH-HÄLSA-END****************/ 
 /*****************FOOTER****************/
 footer
 {
