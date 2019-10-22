@@ -207,6 +207,35 @@ main
     margin: 2%;
 }
 
+/*****************MAIN-KONTAKT****************/    
+.main-img-kontakt
+{
+    background: url(css/kontakt.jpg) no-repeat;
+    background-size: cover;
+    max-height: 400px;
+    text-align: center;
+    padding-top: 400px;
+    padding-bottom: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+}
+    .main-img-kost-och-halsa h1
+    {
+        font-size: 50px;
+        
+    }
+.main-kontakt-content h3
+{
+    text-align: center;
+    color: #bf5841;
+}
+.main-kontakt-content p
+{
+    text-align: center;
+    margin: 2%;
+}
+
 /*****************INDEX-START****************/   
 .rorelse, .kost, .somn
 {
@@ -330,7 +359,6 @@ footer
     /* overflow: auto; */
     background-color: bisque;
     height:200px;
-
 }
 
 .footer-text
